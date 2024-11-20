@@ -304,10 +304,11 @@ span{
 }
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 2rem 9%;
     background: var(--snd-bg-color);
+    width: 100%;
 }
 .footer-text {
     font-size: 1.6rem;
