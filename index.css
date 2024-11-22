@@ -418,6 +418,10 @@ span{
     .home-img img{
         width: 80vw;
         margin-top: 4rem;
+        width: 350px; /* Lebar gambar */
+    height: 350px; /* Tinggi gambar */
+    border-radius: 50%; /* Membulatkan gambar */
+    object-fit: cover; /* Memastikan gambar terisi penuh */
     }
 
 }
