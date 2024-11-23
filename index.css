@@ -129,15 +129,23 @@ span{
     padding: 1rem 2rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.6rem;
     color: var(--bg-color);
     letter-spacing: 0.1rem;
     transition: 0.5s ease;
     margin-top: 50px;
+    text-decoration: none;
+
 }
 .btn:hover{
-    box-shadow: none;
+    box-shadow: 0 0 1rem var(--main-color);
+    border-radius: 4rem;
+    background-color: var(--snd-bg-color);
+    color: var(--main-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-color: var(--main-color);
+    transition: all 700ms ease-in-out;
 }
 .about{
     display: flex;
@@ -322,13 +330,25 @@ span{
     background: var(--main-color);
     border-radius: 0.8rem;
     transition: 0.5s ease;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    border-color: var(--main-color);
 }
 .footer-icon:hover{
     box-shadow: 0 0 1rem var(--main-color);
+    background-color: var(--snd-bg-color);
+    color: var(--main-color);
+    padding:  0.8rem 1rem;
+    text-decoration: none;
+    border-color: var(--main-color);
+    transition: all 700ms ease-in-out;
 }
 .footer-icon a i{
     font-size: 2.4rem;
-    color: var(--bg-color);
+    background-color: var(--snd-bg-color);
+    color: var(--main-color);
+
 }
 @media (max-width: 1200px){
     html{
