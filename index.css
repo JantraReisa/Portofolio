@@ -135,7 +135,6 @@ span{
     transition: 0.5s ease;
     margin-top: 50px;
     text-decoration: none;
-
 }
 .btn:hover{
     box-shadow: 0 0 1rem var(--main-color);
@@ -334,6 +333,11 @@ span{
     font-size: 1.6rem;
     color: var(--bg-color);
     border-color: var(--main-color);
+
+    display: inline-block;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
 }
 .footer-icon:hover{
     box-shadow: 0 0 1rem var(--main-color);
@@ -347,9 +351,9 @@ span{
 .footer-icon a i{
     font-size: 2.4rem;
     background-color: var(--snd-bg-color);
-    color: var(--main-color);
-
+    color: var(--snd-bg-color);
 }
+
 @media (max-width: 1200px){
     html{
         font-size: 55%;
@@ -442,6 +446,13 @@ span{
     height: 350px; /* Tinggi gambar */
     border-radius: 50%; /* Membulatkan gambar */
     object-fit: cover; /* Memastikan gambar terisi penuh */
+    }
+    .about-img img{
+        width: 35vw;
+        width: 350px; /* Lebar gambar */
+        height: 350px; /* Tinggi gambar */
+        border-radius: 50%; /* Membulatkan gambar */
+        object-fit: cover; /* Memastikan gambar terisi penuh */
     }
 
 }
