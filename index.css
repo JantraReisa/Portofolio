@@ -338,6 +338,7 @@ span{
     font-size: 1.6rem;
     letter-spacing: 0.1rem;
     text-decoration: none;
+    background-color: var(--main-color);
 }
 .footer-icon:hover{
     box-shadow: 0 0 1rem var(--main-color);
@@ -350,8 +351,7 @@ span{
 }
 .footer-icon a i{
     font-size: 2.4rem;
-    background-color: var(--snd-bg-color);
-    color: var(--snd-bg-color);
+   
 }
 
 @media (max-width: 1200px){
